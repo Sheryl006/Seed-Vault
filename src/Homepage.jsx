@@ -2,12 +2,12 @@ import { Link } from "react-router-dom";
 export default function Homepage(){
 return(
 <>
-<div className="container-fluid fixed-top">
+   <div className="container-fluid fixed-top">
   <div className="container topbar bg-primary d-none d-lg-block">
     <div className="d-flex justify-content-between">
       <div className="top-info ps-2">
-        <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary" /> <a href="#" className="text-white">123 Street, New York</a></small>
-        <small className="me-3"><i className="fas fa-envelope me-2 text-secondary" /><a href="#" className="text-white">Email@Example.com</a></small>
+        <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary" /> <a href="#" className="text-white">Bogani Street, Karen</a></small>
+        <small className="me-3"><i className="fas fa-envelope me-2 text-secondary" /><a href="mailto:sherylogada@gmail.com" className="text-white">afyagreens@gmail.com</a></small>
       </div>
       <div className="top-link pe-2">
         <a href="#" className="text-white"><small className="text-white mx-2">Privacy Policy</small>/</a>
@@ -18,7 +18,7 @@ return(
   </div>
   <div className="container px-0">
     <nav className="navbar navbar-light bg-white navbar-expand-xl">
-    <Link className="navbar-brand" to="/"><h1 className="text-primary display-6">SEED VAULT</h1></Link>
+    <Link className="navbar-brand" to="/"><h1 className="text-primary display-6">AFYA GREENS</h1></Link>
       
       <button className="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span className="fa fa-bars text-primary" />
@@ -75,8 +75,8 @@ return(
   <div className="container py-5">
     <div className="row g-5 align-items-center">
       <div className="col-md-12 col-lg-7">
-        <h4 className="mb-3 text-secondary">A Digital Platform for Seed Conservation & Exchange</h4>
-        <h1 className="mb-5 display-3 text-primary">Organic Seeds</h1>
+        <h4 className="mb-3 text-secondary">From the Farm to You</h4>
+        <h1 className="mb-5 display-3 text-primary">Organic Veggies, Fruits & Foods</h1>
         <div className="position-relative mx-auto">
           <input className="form-control border-2 border-secondary w-75 py-3 px-4 rounded-pill" type="number" placeholder="Search" />
           <button type="submit" className="btn btn-primary border-2 border-secondary py-3 px-4 position-absolute rounded-pill text-white h-100" style={{top: 0, right: '25%'}}>Submit Now</button>
@@ -87,23 +87,11 @@ return(
           <div className="carousel-inner" role="listbox">
             <div className="carousel-item active rounded">
               <img src="img/hero-img-1.png" className="img-fluid w-100 h-100 bg-secondary rounded" alt="First slide" />
-              <a href="#" className="btn px-4 py-2 text-white rounded">Organic seeds</a>
+              <a href="#" className="btn px-4 py-2 text-white rounded">Fruits</a>
             </div>
             <div className="carousel-item rounded">
               <img src="img/hero-img-2.jpg" className="img-fluid w-100 h-100 rounded" alt="Second slide" />
-              <a href="#" className="btn px-4 py-2 text-white rounded">Hierloom seeds</a>
-            </div>
-            <div className="carousel-item rounded">
-              <img src="img/hero-img-2.jpg" className="img-fluid w-100 h-100 rounded" alt="Second slide" />
-              <a href="#" className="btn px-4 py-2 text-white rounded">Hybrid seeds</a>
-            </div>
-            <div className="carousel-item rounded">
-              <img src="img/hero-img-2.jpg" className="img-fluid w-100 h-100 rounded" alt="Second slide" />
-              <a href="#" className="btn px-4 py-2 text-white rounded">GMO seeds</a>
-              </div>
-              <div className="carousel-item rounded">
-              <img src="img/hero-img-2.jpg" className="img-fluid w-100 h-100 rounded" alt="Second slide" />
-              <a href="#" className="btn px-4 py-2 text-white rounded">Vegetable seeds</a>
+              <a href="#" className="btn px-4 py-2 text-white rounded">Vegetables</a>
             </div>
           </div>
           <button className="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
@@ -962,8 +950,8 @@ return(
       <div className="row g-4">
         <div className="col-lg-3">
           <a href="#">
-            <h1 className="text-primary mb-0">Fruitables</h1>
-            <p className="text-secondary mb-0">Fresh products</p>
+            <h1 className="text-primary mb-0">Afya Greens</h1>
+            <p className="text-secondary mb-0">Fresh & Organic Products</p>
           </a>
         </div>
         <div className="col-lg-6">
@@ -986,39 +974,32 @@ return(
       <div className="col-lg-3 col-md-6">
         <div className="footer-item">
           <h4 className="text-light mb-3">Why People Like us!</h4>
-          <p className="mb-4">typesetting, remaining essentially unchanged. It was 
-            popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+          <p className="mb-4">Supporting local farmers and eco-friendly practices is at the heart of what we do. When you shop with us, you’re uplifting communities and the planet.</p>
           <a href className="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
         </div>
       </div>
       <div className="col-lg-3 col-md-6">
         <div className="d-flex flex-column text-start footer-item">
           <h4 className="text-light mb-3">Shop Info</h4>
-          <a className="btn-link" href>About Us</a>
-          <a className="btn-link" href>Contact Us</a>
-          <a className="btn-link" href>Privacy Policy</a>
-          <a className="btn-link" href>Terms &amp; Condition</a>
-          <a className="btn-link" href>Return Policy</a>
-          <a className="btn-link" href>FAQs &amp; Help</a>
+          <Link className="btn-link" to="/">About Us</Link>
+          <Link className="btn-link" to="/contact">Contact Us</Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6">
         <div className="d-flex flex-column text-start footer-item">
           <h4 className="text-light mb-3">Account</h4>
-          <a className="btn-link" href>My Account</a>
-          <a className="btn-link" href>Shop details</a>
-          <a className="btn-link" href>Shopping Cart</a>
-          <a className="btn-link" href>Wishlist</a>
-          <a className="btn-link" href>Order History</a>
-          <a className="btn-link" href>International Orders</a>
+          <Link className="btn-link" to="/">My Account</Link>
+          <Link className="btn-link" to="/details">Shop details</Link>
+          <Link className="btn-link" to="/cart">Shopping Cart</Link>
+
         </div>
       </div>
       <div className="col-lg-3 col-md-6">
         <div className="footer-item">
           <h4 className="text-light mb-3">Contact</h4>
-          <p>Address: 1429 Netus Rd, NY 48247</p>
-          <p>Email: Example@gmail.com</p>
-          <p>Phone: +0123 4567 8910</p>
+          <p>Address: Bogani street, Karen</p>
+          <p>Email: afyagreens@gmail.com</p>
+          <p>Phone: +254 32768001</p>
           <p>Payment Accepted</p>
           <img src="img/payment.png" className="img-fluid" alt />
         </div>

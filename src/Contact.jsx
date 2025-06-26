@@ -3,12 +3,12 @@ export default function Contact(){
 
     return(
 <>
-<div className="container-fluid fixed-top">
+   <div className="container-fluid fixed-top">
   <div className="container topbar bg-primary d-none d-lg-block">
     <div className="d-flex justify-content-between">
       <div className="top-info ps-2">
-        <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary" /> <a href="#" className="text-white">123 Street, New York</a></small>
-        <small className="me-3"><i className="fas fa-envelope me-2 text-secondary" /><a href="#" className="text-white">Email@Example.com</a></small>
+        <small className="me-3"><i className="fas fa-map-marker-alt me-2 text-secondary" /> <a href="#" className="text-white">Bogani Street, Karen</a></small>
+        <small className="me-3"><i className="fas fa-envelope me-2 text-secondary" /><a href="mailto:sherylogada@gmail.com" className="text-white">afyagreens@gmail.com</a></small>
       </div>
       <div className="top-link pe-2">
         <a href="#" className="text-white"><small className="text-white mx-2">Privacy Policy</small>/</a>
@@ -19,7 +19,7 @@ export default function Contact(){
   </div>
   <div className="container px-0">
     <nav className="navbar navbar-light bg-white navbar-expand-xl">
-    <Link className="navbar-brand" to="/"><h1 className="text-primary display-6">SEED BANK</h1></Link>
+    <Link className="navbar-brand" to="/"><h1 className="text-primary display-6">AFYA GREENS</h1></Link>
       
       <button className="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
         <span className="fa fa-bars text-primary" />
@@ -88,18 +88,19 @@ export default function Contact(){
         <div className="col-12">
           <div className="text-center mx-auto" style={{maxWidth: 700}}>
             <h1 className="text-primary">Get in touch</h1>
-            <p className="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax &amp; PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+            <p className="mb-4"></p>
           </div>
         </div>
         <div className="col-lg-12">
           <div className="h-100 rounded">
-            <iframe className="rounded w-100" style={{height: 400}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" loading="lazy" referrerPolicy="no-referrer-when-downgrade" />
+            <iframe className="rounded w-100" style={{height: 400}} src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15954.835398387297!2d36.746843732545976!3d-1.351229326293135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0539d181204b%3A0x6e7169577881d08f!2sCatholic%20University%20of%20Eastern%20Africa!5e0!3m2!1sen!2ske!4v1750698347595!5m2!1sen!2ske" width="600" height="450"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
           </div>
         </div>
         <div className="col-lg-7">
           <form action className>
             <input type="text" className="w-100 form-control border-0 py-3 mb-4" placeholder="Your Name" />
-            <input type="email" className="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Email" />
+            <input type="email" className="w-100 form-control border-0 py-3 mb-4" placeholder="Enter Your Email" /> <a href="mailto:sherylogada@gmail.com"></a>
             <textarea className="w-100 form-control border-0 mb-4" rows={5} cols={10} placeholder="Your Message" defaultValue={""} />
             <button className="w-100 btn form-control border-secondary py-3 bg-white text-primary " type="submit">Submit</button>
           </form>
@@ -109,21 +110,21 @@ export default function Contact(){
             <i className="fas fa-map-marker-alt fa-2x text-primary me-4" />
             <div>
               <h4>Address</h4>
-              <p className="mb-2">123 Street New York.USA</p>
+              <p className="mb-2">Bogani street, Karen</p>
             </div>
           </div>
           <div className="d-flex p-4 rounded mb-4 bg-white">
             <i className="fas fa-envelope fa-2x text-primary me-4" />
             <div>
               <h4>Mail Us</h4>
-              <p className="mb-2">info@example.com</p>
+              <p className="mb-2">afyagreens@gmail.com</p>
             </div>
           </div>
           <div className="d-flex p-4 rounded bg-white">
             <i className="fa fa-phone-alt fa-2x text-primary me-4" />
             <div>
               <h4>Telephone</h4>
-              <p className="mb-2">(+012) 3456 7890</p>
+              <p className="mb-2">(+254) 32768001</p>
             </div>
           </div>
         </div>
@@ -138,8 +139,8 @@ export default function Contact(){
       <div className="row g-4">
         <div className="col-lg-3">
           <a href="#">
-            <h1 className="text-primary mb-0">Fruitables</h1>
-            <p className="text-secondary mb-0">Fresh products</p>
+            <h1 className="text-primary mb-0">Afya Greens</h1>
+            <p className="text-secondary mb-0">Fresh & Organic Products</p>
           </a>
         </div>
         <div className="col-lg-6">
@@ -162,39 +163,32 @@ export default function Contact(){
       <div className="col-lg-3 col-md-6">
         <div className="footer-item">
           <h4 className="text-light mb-3">Why People Like us!</h4>
-          <p className="mb-4">typesetting, remaining essentially unchanged. It was 
-            popularised in the 1960s with the like Aldus PageMaker including of Lorem Ipsum.</p>
+          <p className="mb-4">Supporting local farmers and eco-friendly practices is at the heart of what we do. When you shop with us, you’re uplifting communities and the planet.</p>
           <a href className="btn border-secondary py-2 px-4 rounded-pill text-primary">Read More</a>
         </div>
       </div>
       <div className="col-lg-3 col-md-6">
         <div className="d-flex flex-column text-start footer-item">
           <h4 className="text-light mb-3">Shop Info</h4>
-          <a className="btn-link" href>About Us</a>
-          <a className="btn-link" href>Contact Us</a>
-          <a className="btn-link" href>Privacy Policy</a>
-          <a className="btn-link" href>Terms &amp; Condition</a>
-          <a className="btn-link" href>Return Policy</a>
-          <a className="btn-link" href>FAQs &amp; Help</a>
+          <Link className="btn-link" to="/">About Us</Link>
+          <Link className="btn-link" to="/contact">Contact Us</Link>
         </div>
       </div>
       <div className="col-lg-3 col-md-6">
         <div className="d-flex flex-column text-start footer-item">
           <h4 className="text-light mb-3">Account</h4>
-          <a className="btn-link" href>My Account</a>
-          <a className="btn-link" href>Shop details</a>
-          <a className="btn-link" href>Shopping Cart</a>
-          <a className="btn-link" href>Wishlist</a>
-          <a className="btn-link" href>Order History</a>
-          <a className="btn-link" href>International Orders</a>
+          <Link className="btn-link" to="/">My Account</Link>
+          <Link className="btn-link" to="/details">Shop details</Link>
+          <Link className="btn-link" to="/cart">Shopping Cart</Link>
+
         </div>
       </div>
       <div className="col-lg-3 col-md-6">
         <div className="footer-item">
           <h4 className="text-light mb-3">Contact</h4>
-          <p>Address: 1429 Netus Rd, NY 48247</p>
-          <p>Email: Example@gmail.com</p>
-          <p>Phone: +0123 4567 8910</p>
+          <p>Address: Bogani street, Karen</p>
+          <p>Email: afyagreens@gmail.com</p>
+          <p>Phone: +254 32768001</p>
           <p>Payment Accepted</p>
           <img src="img/payment.png" className="img-fluid" alt />
         </div>
